@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:deviceIds="tv"
+    tools:ignore="MergeRootFrame" >
+
+    <VideoView android:id="@+id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:textColor="@android:color/transparent" android:id="@+id/home" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="home key" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="setting key"
+        android:textColor="@android:color/transparent"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="50.0dip" android:layout_marginRight="150.0dip" />
+</FrameLayout>

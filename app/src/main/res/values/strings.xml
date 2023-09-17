@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComboPlay</string>
+    <string name="preference_DeviceType">DeviceType</string>
+    <string name="preference_SyncEnable">SyncEnable</string>
+    <string name="preference_debug">debug</string>
+    <string name="preference_VideoPath">VideoPath</string>
+</resources>
