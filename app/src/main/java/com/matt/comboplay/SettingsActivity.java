@@ -1,10 +1,7 @@
 package com.matt.comboplay;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
@@ -39,11 +36,11 @@ public class SettingsActivity extends Activity implements RadioGroup.OnCheckedCh
     public void onCheckedChanged(RadioGroup radioGroup, int checkedId) {
         if (checkedId == R.id.radioButtonTypeMaster) {
             mSettingDB.Log("Master");
-            mSettingDB.setDeviceType(0);
+            mSettingDB.setDeviceType(1);
         }
         else if (checkedId == R.id.radioButtonTypeSlave) {
             mSettingDB.Log("Slave");
-            mSettingDB.setDeviceType(1);
+            mSettingDB.setDeviceType(0);
         }
         else if (checkedId == R.id.radioButtonSyncOff) {
             mSettingDB.Log("Sync off");
